@@ -46,6 +46,11 @@ header {
     height: 3.5rem;
     padding: 1rem;
 }
+@media (width <= 40rem) {
+    .header_img {
+        height: 2rem;
+    }
+}
 
 /*Main*/
 main {
@@ -58,6 +63,18 @@ main {
 @media (width <= 85rem) {
     main {
         width: calc(100% - 5rem - 8rem);
+    }
+}
+@media (width <= 60rem) {
+    main {
+        width: calc(100% - 5rem - 2rem);
+        padding: 1rem;
+    }
+}
+@media (width <= 30rem) {
+    main {
+        width: calc(100% - 2rem - 2rem);
+        margin: 1rem;
     }
 }
 #main_spliter_container {
@@ -103,10 +120,16 @@ main {
     padding: 3rem;
     padding-right: 0;
     padding-left: 6rem;
+    overflow-wrap: anywhere;
 }
 @media (width <= 85rem) {
     #main_part {
         padding: 3rem;
+    }
+}
+@media (width <= 60rem) {
+    #main_part {
+        padding: 1rem;
     }
 }
 #main_part p {
