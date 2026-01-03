@@ -166,6 +166,12 @@ footer {
     color: var(--bg-color);
     padding: 1rem;
 }
+#footer_main a {
+    color: var(--content-bg-colorr);
+}
+#footer_main a:hover {
+    text-decoration: underline;
+}
 
 /*Cookies*/
 #cookies {
