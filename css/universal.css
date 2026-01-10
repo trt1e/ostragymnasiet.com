@@ -221,7 +221,8 @@ footer {
 .compactable_segment_main {
     padding: 2rem;
     padding-top: 1rem;
-    display: none;
+
+    display: none; /*This is extreamly inportant*/
 }
 .compactable_segment_main ul {
     margin-bottom: 2rem;
