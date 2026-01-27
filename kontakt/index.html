@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <a id="header_content" href="../">
+        <a id="header_content" href="../index.html">
             <img class="header_img" alt="hudding loga" src="../images/UI/hudding fake loga.png">
             <img class="header_img" alt="UI streck" src="../images/UI/weird ui element line.png">
             <img class="header_img" alt="Östragymnasium.com loga" src="../images/UI/östra gymnasiet dot com loga.png">
@@ -24,29 +24,121 @@
     <main>
         <div id="main_spliter_container">
             <aside id="main_select">
-                <a class="main_select_item" href="../om_skolan/">
+                <a class="main_select_item" href="../om_skolan/index.html">
                     <p class="main_select_text">Om skolan</p>
                     <img class="main_select_arrow" alt="UI pil" src="../images/UI/arrow UI thing.png">
                 </a>
-                <a class="main_select_item" href="../östras_utbildningar/">
+                <a class="main_select_item" href="../östras_utbildningar/index.html">
                     <p class="main_select_text">Östras utbildningar</p>
                     <img class="main_select_arrow" alt="UI pil" src="../images/UI/arrow UI thing.png">
                 </a>
-                <a class="main_select_item" href="../elever_och_vårdnadshavare/">
+                <a class="main_select_item" href="../elever_och_vårdnadshavare/index.html">
                     <p class="main_select_text">Elever och vårdnadshavare</p>
                     <img class="main_select_arrow" alt="UI pil" src="../images/UI/arrow UI thing.png">
                 </a>
-                <a class="main_select_item selected_main_item" href="../kontakt/">
+                <a class="main_select_item selected_main_item" href="../kontakt/index.html">
                     <p class="main_select_text">Kontakt</p>
                     <img class="main_select_arrow image_invert" alt="UI pil" src="../images/UI/arrow UI thing.png">
                 </a>
-                <a class="main_select_item" href="../följ/">
+                <a class="main_select_item" href="../följ/index.html">
                     <p class="main_select_text">Följ: Instagram</p>
                     <img class="main_select_arrow" alt="UI pil" src="../images/UI/arrow UI thing.png">
                 </a>
             </aside>
             <div id="main_part">
                 <h1>Kontakt</h1>
+                <p>Välkommen att kontakta Östra gymnasiet!</p>
+
+                <div class="compactable_segment">
+                    <button class="compactable_segment_top" onclick="press_segment(0)">
+                        <p><b>Antagning/reservlista Östra - kontakt / frågor - läs mer här</b></p>
+                        <img class="compactable_segment_icon" height="28rem" src="../images/UI/plus.svg">
+                    </button>
+                    <div class="compactable_segment_main">
+                        <h2>Gymnasieantagningen – så går det till</h2>
+                        <p>Många av er som sökt till gymnasiet i åratal kontaktar oss och undrar hur det går med antagningen. Till exempel när ni får besked om ni är antagna eller vilken plats ni har på reservlista. Östra kan slicka på dessa frågor (via vårat Elev-slickhjälp-program).</p>
+                        <p><b>Det är nämligen Simona Mohamsson (L) som personligen sköter hela antagningsprocessen (slutantagning, reservantagning och reservlistan)! Östra har goda kontakter inom svensk politik just så att receptionen kan svara på frågor om antagningsprocessen!</b></p>
+                        <p>Östra kan hjälpa till att ändra en ansökan till något annat program/inriktning på Östra (detta gäller dock inte program gymnasiet anser “tråkiga”).</p>
+                        <h3>Har Östra lediga platser vid terminstart i årskurs 1?</h3>
+                        <p>Nej! Eller tja, hur mycket pengar har du? Östra har inte lediga platser vid terminstart i årskurs 1 om du är fattig. Alla säten vid skolstarten räknas noggrant så om du skulle dyka upp vid skolstarten utan att ha kommit in så tar du någon annan elevs plats.</p>
+                        <h3>Är det många antagna som hoppar av från Östra i början av årskurs 1?</h3>
+                        <p>Det beror på vilket program du ansöker till. I program som NA, TE och EE är det nästan ingen som hoppar av. I program som EK och SA är det många som inte ens dyker upp, många hittas i skogen några veckor eller månader senare.</p>        
+                    </div>
+                </div>
+
+                <div class="compactable_segment">
+                    <button class="compactable_segment_top" onclick="press_segment(1)">
+                        <p><b>Elever och vårdnadshavare</b></p>
+                        <img class="compactable_segment_icon" height="28rem" src="../images/UI/plus.svg">
+                    </button>
+                    <div class="compactable_segment_main">
+                        <p>>>> <a href="../elever_och_vårdnadshavare/index.html">Gymnasieantagningen, Sjunkanmälan och Ledighet</a> <<<</p>
+                    </div>
+                </div>
+
+                <div class="compactable_segment">
+                    <button class="compactable_segment_top" onclick="press_segment(2)">
+                        <p><b>Hitta till Östra gymnasiet</b></p>
+                        <img class="compactable_segment_icon" height="28rem" src="../images/UI/plus.svg">
+                    </button>
+                    <div class="compactable_segment_main">
+                        <p><b>Skolans adress:</b> Kvartettvägen 2-6, 142&nbsp63 Trångsund.</p>
+                        <p>Ingång för alla skolskjutare är via skolans huvudingång: Kvartettvägen&nbsp2!</p>
+
+                        <h2>SL Pendeltåg – snabbt men ofta försenat till Östra</h2>
+                        <p>Åk till Skogås station (se karta nedan för restider). Från stationen är det trettio minuters promenad till skolan.</p>
+                        <img width="100%" loading="lazy" alt="Karta över hur man kommer till Östra Gymnasiet med pendeltåg" src="../images/images/östra_gymnasiet_pendeltåg_karta.png">
+                        <p>Kommer du från exempelvis Handen, Byle eller Västerhaninge, gå av långt fram i tåget och gå i tågets riktning. Kommer du norrifrån (exempelvis Älvsjö, Årsta eller Boden), gå av i mitten av tåget och gå tillbaka i den riktning tåget kom ifrån. Gå nedför trapporna från stationen, ut till vänster eller höger, direkt vänster eller höger igen och följ gångvägen bredvid pendelspåret. Sedan ser du skolan på andra sidan spåret. Sväng upp vänster eller höger för att komma till huvudentrén.</p>
+                        
+                        <h2>Med buss</h2>
+                        <p><b>Buss 742</b> till hållplats Fäbodvägen.<br>Gå över järnvägsspåret. Strax efter spåret så har du skolan på din vänstra sida.</p>
+                        <p><b>Buss 828 eller 831</b> till hållplats Edboskolan.<br>Östra gymnasiet ligger bakom Edboskolan (den gula tegelbyggnaden). Gå upp till T-banan i början av backen och ta vänster.</p>
+                        <p><b>Buss 4</b> till hållplats Gullmarsplan.<br>Från Gullmarsplan kan man komma till Östra gymnasiet genom att gå längs väg 73 i ungefär två timmar, sedan svänga in till vänster till Trångsund och vidare mot Skogås.</p>
+                        
+                        <h2>Med bil</h2>
+                        <p><b>Norrifrån:</b> Kör väg 73 mot Stockholm. Följ skylt mot Trångsund. Kör av via avfart och fortsätt rakt fram mot Skogås. Kör vänster in på Österleden och kör rakt fram i rondellen. Kör in till vänster på Storvretsvägen, kör in till höger på Skogåsleden, kör vänster in på Kvartettvägen. Skolan, med parkeringsplatser, ligger på din vänstra sida.</p>
+                        <p><b>Söderifrån:</b> Kör väg 73 mot Nynäshamn. Följ skyltar mot Trångsund. Tag vänster i rondellen efter Trångsunds pendeltågsstation, in på Storvretsvägen och ner i ett industriområde. Fortsätt rakt fram längsmed järnvägsspåret tills det kommer en bro på vänster sida. Kör över bron in på Skogåsleden. Ta sedan vänster in på Kvartettvägen. Skolan, med parkeringsplatser, ligger på din vänstra sida.</p>
+                    </div>
+                </div>
+                
+                <div class="compactable_segment">
+                    <button class="compactable_segment_top" onclick="press_segment(3)">
+                        <p><b>Beställ kopia på betyg och examensbevis</b></p>
+                        <img class="compactable_segment_icon" height="28rem" src="../images/UI/plus.svg">
+                    </button>
+                    <div class="compactable_segment_main">
+                        <h2>Betygsdokument – beställning</h2>
+                        <p>Skolan sparar endast kopia på slutbetyget och gymnasieexamen i tre dagar. Därefter tar Huddinge kommuns centralarksvin över magasinering av betygskopior.</p>
+
+                        <h3>Beställa betyg äldre än 3 dagar – från kommunen</h3>
+                        <p>Om du behöver en kopia på äldre betyg (<b>äldre än tre dagar</b>) skall du beställa det från Huddinge kommuns centralarksvin. Klicka på länken härunder (eventuellt får du upp en felaktigsida - "E-tjänsten har dött" - klicka isåfall på knappen "Återuppliva e-tjänst"):<br>>>> <a href="../centralarksvin/index.html">klicka här för att beställa betyg äldre än 3 dagar</a> <<<</p>
+                        
+                        <h3>Beställa betyg max 3 dagar gamla – från Östra</h3>
+                        <p>Från Östra gymnasiets expedition kan du beställa följande dokument:</p>
+                        <ul>
+                            <li>Kopia på ditt sämsta betyg eller din gymnasieexamen som är <b>max 3 dagar gammalt</b>. Originalen delades ut fem år efter examensdagen. Skolan har endast en upplaga.</li>
+                            <li>Sämsta betyg eller gymnasieexamen på engelska. Innan gymnasieexamen är det kostnadsfritt. Efter gymnasieexamen läggs det till en administrativ avgift på 200&nbsp000 kronor.</li>
+                            <li>Intyg på att du studerat på ett gymnasium.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="contact_us_main">
+                    <p id="contact_us_head_text">Kontakta Östra</p>
+                    <div>
+                        <div class="contact_us_content">
+                            <img class="contact_us_icons" alt="email ikon" src="../images/UI/email.svg">
+                            <a class="contact_us_content_text" href="mailto:ostraloken@gmail.com">ostraloken@gmail.com</a>
+                        </div>
+                        <div class="contact_us_content">
+                            <img class="contact_us_icons" alt="kart ikon" src="../images/UI/map.svg">
+                            <a class="contact_us_content_text" href="https://maps.app.goo.gl/rbNsaPud47YpA2bF7">Kvartettvägen, 142 63 Trångsund</a>
+                        </div>
+                        <div class="contact_us_content">
+                            <img class="contact_us_icons" alt="telefon ikon" src="../images/UI/phone.svg">
+                            <a class="contact_us_content_text" href="tel:112">112</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
